@@ -4,7 +4,6 @@ def caesar_cipher(string, num)
         letter = letter[1] if letter.length > 1
         string[index] = letter
     end
-    puts string
 end
 
-caesar_cipher("What's your name?", 2)
+print caesar_cipher("What's your name?", 2)
